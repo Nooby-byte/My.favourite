@@ -1,0 +1,109 @@
+body {
+    background-color: aqua;
+    text-align: center;
+}
+
+#app {
+    background-color: chocolate;
+    color: deeppink;
+    font-weight: bolder;
+    height: 800px;
+    width: 100%;
+}
+
+#game {
+    background-color: chartreuse;
+    color: blue;
+    font-weight: bolder;
+    height: 800px;
+    width: 100%;
+}
+
+#chatbot {
+    background-color: coral;
+    color: dodgerblue;
+    font-weight: bolder;
+    height: 800px;
+    width: 100%;
+}
+
+img:hover {
+    transform: rotate3d(180);
+}
+
+.menu {
+    font-family: sans-serif;
+    position: fixed;
+    top: 0px;
+    width: 30%;
+    cursor: pointer;
+    z-index: 10;
+    background-color: plum;
+    color: purple;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.link {
+    display: inline;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.link {
+    transition-duration: 0.4s;
+}
+
+.link:hover {
+    background-color: limegreen;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-decoration: underline;
+
+}
+
+#reviewH {
+    display: inline;
+    text-decoration: none !Important;
+    border-radius: 12px;
+    background-color: forestgreen;
+    color: cyan;
+    font-size: 20px;
+    border-style: none;
+    width: 25%;
+    height: 10%;
+    transition-duration: 0.5s;
+}
+
+#reviewH:hover {
+    background-color: white;
+    color: green;
+    text-decoration: underline;
+}
+
+#fave {
+    width: 100%;
+    background: linear-gradient(skyblue 0%, cyan 50%, blue 100%)
+}
+
+#imgSachinT {
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+    width: 300px;
+}
+
+#imgSachinT:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+
+#inspire {
+    background: linear-gradient(yellow 0%, orange 50%, red 100%);
+    color: white;
+}
